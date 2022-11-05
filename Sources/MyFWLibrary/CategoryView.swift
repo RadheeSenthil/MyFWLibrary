@@ -13,7 +13,7 @@ public struct CategoryView: View {
     let title : String
     let image : String
     
-    init(title: String, image: String) {
+    public init(title: String, image: String) {
         
         self.title = title
         self.image = image

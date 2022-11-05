@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-@available(macOS 12.0, *)
+@available(macOS 12.0, iOS 13.0, *)
 public struct CategoryView: View {
     
     let title : String
@@ -44,7 +44,7 @@ public struct CategoryView: View {
     }
 }
 
-@available(macOS 12.0, *)
+@available(macOS 12.0, iOS 13.0, *)
 struct CategoryView_Previews: PreviewProvider {
     static var previews: some View {
         

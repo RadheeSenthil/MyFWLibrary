@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-@available(macOS 12.0, iOS 13.0, *)
+@available(macOS 12.0, iOS 15.0, *)
 extension Color {
     
     init(hex: UInt, alpha: Double = 1) {
@@ -22,7 +22,7 @@ extension Color {
 }
 
 
-@available(macOS 12.0, iOS 13.0, *)
+@available(macOS 12.0, iOS 15.0, *)
 struct ColorExt_Previews: PreviewProvider {
     static var previews: some View {
         

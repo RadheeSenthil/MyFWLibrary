@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-@available(macOS 12.0, iOS 13.0, *)
+@available(macOS 12.0, iOS 15.0, *)
 struct MyAsyncImage: View {
     
     let imageURL : String
@@ -44,7 +44,7 @@ struct MyAsyncImage: View {
     }
 }
 
-@available(macOS 12.0, iOS 13.0, *)
+@available(macOS 12.0, iOS 15.0, *)
 struct MyAsyncImage_Previews: PreviewProvider {
     static var previews: some View {
         MyAsyncImage(imageURL: "", imageWidth: 80, imageHeight: 80, isRemote: true)
